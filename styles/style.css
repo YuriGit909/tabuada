@@ -43,6 +43,7 @@ main p {
 input[type=number] {
     padding: 5px;
     border-radius: 10px;
+    font-size: 1em;
 }
 
 input[type=number]:focus {
@@ -53,6 +54,17 @@ input[type=button] {
     margin-bottom: 20px;
     padding: 5px;
     border-radius: 5px;
+}
+
+select {
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 1em;
+}
+
+select::-webkit-scrollbar {
+    width: 0;
+    height: 0;
 }
 
 footer p {
